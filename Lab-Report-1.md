@@ -5,7 +5,7 @@
 
 ![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/729b6bdf-f0ad-4538-a009-501a8ec49482)
 
-`The working directory was /home. The reason this is the output is because the cd command changes the directory, thus with no argument or directory, nothing changes. This is not an error.`
+`The working directory was /home. The reason this is the output is because the cd command changes the directory back to the home directory, thus with no arugment and/or a preexisting directory beyond just the home directory, it will return back. In this case, it was already the home directory /home. This is not an error.`
 
 **cd command w/ directoy as argument**
 
@@ -48,9 +48,10 @@
 ---
 **cat command w/o argument**
 
-![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/fd0759b6-4301-49b5-8581-67a79ffb5970)
+![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/78009ab8-3fbb-48ea-ac25-cab9b19a2225)
 
-`The working directory is /home. The reason for the output is that cat prints the file, however there is no file to print. This output is an error as the terminal then crashes or appears to do so.`
+
+`The working directory is /home. The reason for the output is that cat prints the file, however there is no file to print. Instead the terminal waits for a input and returns the user input infintely amount of times until the user exits out manuelly. This output is not an error as this is the expected output.`
 
 **cat command w/ directory as argument**
 
