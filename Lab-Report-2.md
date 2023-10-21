@@ -46,7 +46,13 @@ sentence. In this case, Dante is added to the field entries and the List method 
 ---
 ## *SSH Login with no Password*
 
-![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/e6a6743a-74d7-451f-a8f3-3df0ae060004)
+
+![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/dd4f2ae9-426c-435c-8ef3-9718c07277f2)
+
+## PART 3
+---
+`I learned a shortcut to login to my ssh account without the use `
+
 
 
 
