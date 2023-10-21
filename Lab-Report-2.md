@@ -51,7 +51,7 @@ sentence. In this case, Dante is added to the field entries and the List method 
 
 ## PART 3
 ---
-`I learned a shortcut to login to my ssh account without the use `
+`I learned a shortcut to login to my ssh account without inputing the login by using new commands such as mkdir to make a directory for my private key and scp to copy my key to my computer. I learned how to host a server on my own computer instead of on the computers in the basement by using the code provided by in the wavelet files NumberServer and Server. With that, I also learned how to add on to a url invloving queries to manipulate the servers I hosted. `
 
 
 
