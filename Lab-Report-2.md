@@ -12,11 +12,11 @@
 
 ![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/1d69e49e-601c-449d-bfc2-f4caaf2a2008)
 
-`The methods called in this example are List(ArrayList<String>arr), sentenceConverter(String x) and handleRequest(URI url). List takes in an arraylist with all the entries that have been added to the server. The class
-has a field named entries that stores all of them that starts off empty. sentenceConverter takes a string, usually one from the entries list, and formats the string if it is a sentence. handleRequest examines the url
-and checks if the user has appeneded the correct request to update the website. In handleRequest, the methods List and sentenceConverter are called if the user appended correctly to the url, thus it adds the
-input and any previous input made by the user. List is the method that prints out all previous strings made by the user stored in entries with the index+1 being printed in front of each string to show when the string was added.
-sentence. In this case, the string My name is Dante is added to entries and reprinted on the screen next to 1.`
+`The methods called in this example are `List(ArrayList<String>arr)`, `sentenceConverter(String x)` and `handleRequest(URI url)`. `List` takes in an `arraylist` with all the entries that have been added to the server. The class
+has a field named `entries` that stores all of them that starts off empty and another class field named `start` which acts as a way to build on the current set of `strings` temporarly. `sentenceConverter` takes a `string`, usually one from the `entries` list, and formats the `string` if it is a sentence. `handleRequest` examines the `url`
+and checks if the user has appeneded the correct request to update the website. In `handleRequest`, the methods `List` and `sentenceConverter` are called if the user appended correctly to the `url`, thus it adds the
+input and any previous input made by the user. `List` is the method that prints out all previous `strings` made by the user stored in entries with the `index+1` being printed in front of each string to show when the string was added.
+sentence. As each method is called after a user enters a new string, the ArrayList entries increases in size has the user String is added to the list. The class field start is temporarly updated with the new string added from the user, which is then stored in list for later use such as printing all strings. In this case, the string My name is Dante is added to entries and reprinted on the screen next to 1.`
 
 
 ---
