@@ -3,20 +3,18 @@
 ## Step 4
 ![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/00a6f860-63b1-4ee6-afc7-9b93167f064f)
 
-`<ctrl>` + `
- 
-ssh cs15lfa23ly@ieng6.ucsd.edu. `<enter>`
+Keys Pressed:
 
-To open the terminal I typed `<ctrl>` and `. I then used the ssh command and typed my username to login to my account.
+`<ctrl>` + ` (to open the terminal)
 
+ ssh `<space>` cs15lfa23ly`<shift>+2`ieng6.ucsd.edu. `<enter>` to login into ssh. 
 ## Step 5
 
 ![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/6aedc55d-b73d-4cfb-92f1-0d208edb1780)
 
-git clone git@github.com:dantemccflurry/lab7.git. enter
+Keys Pressed: 
 
-
-`I used the git clone command and cloned the ssh url of my forked repository. `
+git `<space>` clone `<space>` `<ctrl>`+v git `<shift>`+2 github.com:dantemccflurry/lab7.git. (ssh url copied from github repository) `<enter>`
 
 ## Step 6
 
@@ -24,73 +22,61 @@ git clone git@github.com:dantemccflurry/lab7.git. enter
 ![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/b643a98f-9584-451c-9519-86c81ed58b87)
 
 
+Keys Pressed: 
 
+cd `<space>` lab7 `<enter>` (to work within the correct directory)
 
+javac `<space>` -cp `<space>` .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar `<space>` *.java `<enter>` (to compile the neccessary files)
 
-cd lab7 `<enter>`
+ java `<space>` -cp `<space>` .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.`<shift>`+j `<shift>`+ u nit `<shift>`+c ore `<space>` `<shift>`+l ist `<shift>`+e xamples `<shift>`+t ests `<enter>` (to run the necessary files for testing)
 
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java `<enter>`
-
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests `<enter>`
-
-
-
-
-`I used the cd command to change the directory into the lab7. I then ran the necessary javac line to compile the Junit and all java files. I then ran the java command on the Junit and ListExamplesTests.`
 
 ## Step 7
 
 ![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/c26df563-ff8a-4c7f-902a-de9e6239d222)
 
+Keys Pressed: 
 
-43j
+43j `<enter>` (to jump 43 lines down to the line with the bug)
 
-w
+w `<enter>` (to shift the cursor to the next word index1)
 
-5l
+5l `<enter>` (shift the cursor 5 spaces to the left over the number 1)
 
-x
+x `<enter>` (deletes the number 1)
 
-i
+i `<enter>` (enter insert mode)
 
-2
+2 `<enter>` (adds 2 where 1 was deleted )
 
-`<esc>`
+`<esc>` (exit insert mode)
 
-:wq `<enter>`
-
-
-43j jumps 43 lines down the file to the line that has the bug. w shifts the cursor to the next word being index2. 5l shifts the cursor 5 to the left on top of the 2. x deletes the 2. i turns on insert mode and inserts the 2.
-`<esc>` exits insert mode. :wq and `<enter>` to save the changes of the file.
+:wq `<enter>` (saves the changes to the file and exits)
 
 ## Step 8
 
 ![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/01fda982-9c45-4d1b-aca5-a8b13427a625)
 
+Keys Pressed:
 
-`<up>` `<up>` `<up>` `<enter>`
+
+`<up>` `<up>` `<up>` `<enter>` (the command to recompile the code, javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java, was in the command history using the up key.) 
   
-`<up>` `<up>` `<enter>`
-
-
-I hit `<up>` three times then `<enter>` to get the javac command I ran earlier to compile all the files again after the changes. I then hit `<up>` two times and then `<enter>` to get the java command I ran to redo the tests.
+`<up>` `<up>` `<enter>` (the command to run the code, java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests, was in the command history using the up key.)
 
 ## Step 9
 
 ![image](https://github.com/dantemccflurry/-cse15l-lab-reports/assets/130246353/4ed48578-d4d7-4b0a-b46b-bbc6cf15b2e2)
 
+Keys Pressed:
 
-git add ListExamples.java `<enter>`
+git `<space>` add `<space>` `<shift>`+l ist `<shift>`+e xamples.java `<enter>` (to stage the ListExamples.java file)
 
-git commit `<enter>`
+git `<space>` commit `<enter>` (to commit file to github page)
 
-i I changed line 43 from index1 to index 2 `<esc>` :wq `<enter>`
+i `<space>` `<shift>`+i `<space>` changed `<space>` line `<space>` 43 `<space>` from `<space>` index1 `<space>` to `<space>` index 2 `<esc>` :wq `<enter>` (the commit message to github)
 
-git push `<enter>`
-
-
-I staged the ListExamples.java file with git add and then committed it with the git committ command. I was prompted to give a commit message, in which I entered insert mode with i and typed the message. I then saved and
-exited with :wq and pressed `<enter>`. Finally I pushed it to my repository with git push `<enter>`.
+git push `<enter>` (push the file to the github page)
 
 
 
